@@ -1,0 +1,48 @@
+name: untitled
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+
+  # UI & Animation
+  fl_chart: ^0.66.0
+  google_fonts: ^6.1.0
+  cupertino_icons: ^1.0.8
+  lottie: ^2.6.0
+
+  # Network & HTTP
+  http: ^1.1.0
+
+  # WebView
+  webview_flutter: ^4.0.7
+  webview_flutter_android: ^3.11.2
+
+  # Localization & State Management
+  intl: ^0.18.1
+  provider: ^6.1.2
+
+  # Firebase
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.0
+  cloud_firestore: ^4.15.0
+  firebase_app_check: ^0.2.2+7
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/carbon.jpg

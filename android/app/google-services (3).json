@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "188333229285",
+    "project_id": "carbonsh-ef768",
+    "storage_bucket": "carbonsh-ef768.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188333229285:android:34849f40766e926814400c",
+        "android_client_info": {
+          "package_name": "com.example.untitled"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYepWzolPg2CBRQZVxFL7rTZ44RCeMmr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

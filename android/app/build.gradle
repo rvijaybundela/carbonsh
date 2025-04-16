@@ -1,0 +1,53 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+    id 'com.google.gms.google-services'
+
+
+}
+
+android {
+    namespace "com.example.untitled"
+    compileSdk flutter.compileSdkVersion
+    ndkVersion flutter.ndkVersion
+
+    defaultConfig {
+        applicationId "com.example.untitled"
+        minSdkVersion 21
+        //noinspection OldTargetApi
+        targetSdkVersion 34
+        versionCode 1 // ✅ ADD
+        versionName "1.0" // ✅ ADD
+    }
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.debug
+        }
+    }
+}
+
+flutter {
+    source = "../.."
+}
+dependencies {
+    implementation platform('com.google.firebase:firebase-bom:33.12.0')
+    implementation 'androidx.core:core-ktx:1.16.0'
+    implementation 'androidx.viewpager2:viewpager2:1.1.0'
+    implementation 'androidx.compose.runtime:runtime:1.8.0'
+
+        // other dependencies...
+    }
+
+
